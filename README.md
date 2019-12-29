@@ -40,7 +40,7 @@ The program will creat a window to display the scene capture by webcamera and a 
 python real_time_video.py
 
 You can just use this with the provided pretrained model i have included in the path written in the code file, i have choosen this specificaly since it scores the best accuracy, feel free to choose any but in this case you have to run the later file train_emotion_classifier
-## If you just want to run this demo instead of training the model from scaratch, the following content can be skipped
+## So lets train our model and get our system rolling.
 > Train
 
 python train_emotion_classifier.py
@@ -59,11 +59,5 @@ Download it and put the csv in fer2013/fer2013/
 # Credits
 This work is inspired from [this](https://github.com/oarriaga/face_classification) great work and the resources of Adrian Rosebrock helped me alot!.
 
-# Ongoing 
-Draw emotions faces next to the detected face.
-
-# Issues & Suggestions
-
-If any issues and suggestions to me, you can create an [issue](https://github.com/omar178/Emotion-recognition/issues).
 
 If you like this work please help me by giving me some stars.
